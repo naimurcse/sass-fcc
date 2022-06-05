@@ -1,20 +1,5 @@
-//* Normal CSS Variable Declear
-
-/* :root {
-    --primary-color: #272727;
-    --text-color: #fff
-} */
-
-//* SASS Variable
-$primary-color: #272727;
-$secondary-color: rgb(36, 4, 95);
-$text-color: #fff;
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+@import '../scss/resets';
+@import '../scss/variables';
 body {
     //* Normal CSS Variable Apply
     // background-color: var(--primary-color);
@@ -23,15 +8,18 @@ body {
     color: $text-color;
 }
 
+//* Nesting Practice
 .main {
     background-color: $secondary-color;
     color: $text-color;
     width: 1200px;
     margin: 0 auto;
     &__para {
+        //! .main__para
         padding: 20px;
     }
     #{&}__news {
+        //! .main .main__news
         background-color: $primary-color;
         border: 1px solid #fff;
         padding: 20px;

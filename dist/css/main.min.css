@@ -1,2 +1,36 @@
-*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}body{background-color:#272727;color:#fff}.main{background-color:#24045f;color:#fff;width:1200px;margin:0 auto}.main__para{padding:20px}.main .main__news{background-color:#272727;border:1px solid #fff;padding:20px}.main .main__news:hover{color:red;cursor:pointer}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #272727;
+    color: #fff
+}
+
+.main {
+    background-color: #24045f;
+    color: #fff;
+    width: 1200px;
+    margin: 0 auto
+}
+
+.main__para {
+    padding: 20px
+}
+
+.main .main__news {
+    background-color: #272727;
+    border: 1px solid #fff;
+    padding: 20px
+}
+
+.main .main__news:hover {
+    color: red;
+    cursor: pointer
+}
+
+
 /*# sourceMappingURL=main.min.css.map */
